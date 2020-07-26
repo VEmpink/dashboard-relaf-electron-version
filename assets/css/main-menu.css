@@ -1,0 +1,222 @@
+#main-menu {
+    margin: 0 0 32px 0;
+}
+
+#main-menu h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#main-menu button {
+    font-family: 'Cabin-Regular';
+    font-size: 14px;
+    color: #667587;
+    padding: 0;
+    margin-left: 14px;
+    border: 1px solid #dfe6ee;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 4px;
+}
+
+#main-menu button div {
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+#main-menu button div:first-child {
+    border-right: 1px solid #dfe6ee;
+}
+
+#main-menu button span {
+    color: #667587 !important;
+}
+
+#btn-backup-database .ti-export {
+    color: #3c71da !important;
+}
+
+#btn-backup-database:hover,
+#btn-restore-database:hover,
+#btn-settings:hover {
+    opacity: 1 !important;
+}
+
+#btn-backup-database:hover,
+#btn-backup-database:hover div:first-child {
+    border-color: #3c71da !important;
+}
+
+#btn-backup-database:hover div:last-child span {
+    color: #3c71da !important;
+}
+
+#btn-restore-database .ti-import {
+    color: #56bd5b !important;
+}
+
+#btn-restore-database:hover,
+#btn-restore-database:hover div:first-child {
+    border-color: #56bd5b !important;
+}
+
+#btn-restore-database:hover div:last-child span {
+    color: #56bd5b !important;
+}
+
+#btn-settings {
+    border: 0 !important;
+}
+
+#btn-settings:hover,
+#btn-settings:hover span {
+    color: #3ca4e6 !important;
+}
+
+/* Pengaturan Aplikasi */
+#app-settings {
+    display: none;
+    background-color: rgba(244, 247, 250, 0.75);
+}
+
+#app-settings.active {
+    display: flex;
+    animation: showAppSettings .12s ease forwards;
+}
+
+#box-settings {
+    width: max-content;
+    padding: 0 18px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 7px 0px rgba(32,33,36,0.28);
+}
+
+#header-settings h5 {
+    padding: 10px;
+    margin: 0;
+    font-weight: normal;
+    border-bottom: 1px solid #dfe6ee;
+}
+
+#body-settings {
+    padding: 10px 0;
+}
+
+#body-settings * {
+    font-size: 14px;
+}
+
+#label-settings {
+    margin-bottom: 6px;
+}
+
+#label-settings h5 {
+    font-weight: normal;
+}
+
+#status-settings,
+#turnoff-auto-backup {
+    color: #dfe6ee;
+    font-size: 12px;
+    padding: 0 2px;
+    background-color: #667587;
+    border-radius: 4px;
+}
+
+#status-settings.is-active {
+    background-color: #56bd5b;
+}
+
+#auto-backup-settings {
+    padding: 6px 10px;
+    margin-left: 18px;
+    color: #667587;
+    background-color: #dfe6ee;
+    border-radius: 4px;
+}
+
+#auto-backup-settings * {
+    color: #667587;
+}
+
+#auto-backup-settings input {
+    display: inline-block;
+    width: 32px;
+    padding: 0 6px;
+    color: inherit;
+    border: 1px solid #667587;
+    border-radius: 4px;
+    outline: none;
+}
+
+#path-auto-backup,
+#notice-auto-backup span {
+    display: inline-block;
+    margin-top: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#path-auto-backup:hover {
+    color: #3ca4e6;
+}
+
+#turnoff-auto-backup {
+    display: none;
+    margin-top: 4px;
+    color: #dfe6ee;
+    background-color: #f35151;
+    cursor: pointer;
+}
+
+#turnoff-auto-backup.is-show {
+    display: inline-block;
+}
+
+#turnoff-auto-backup:hover {
+    opacity: 0.9;
+}
+
+#notice-auto-backup {
+    display: none;
+    padding: 4px 6px;
+    margin: 4px 0 0 0;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+#notice-auto-backup.is-show {
+    display: flex;
+}
+
+#notice-auto-backup span {
+    margin-top: 0 !important;
+    text-decoration: none !important;
+    cursor: auto !important;
+}
+
+#notice-auto-backup span.ti-info-alt {
+    margin-right: 4px;
+}
+
+#footer-settings {
+    padding: 10px 0;
+    border-top: 1px solid #dfe6ee;
+}
+
+#footer-settings span {
+    color: #667587;
+    font-size: 12px;
+}
+
+@keyframes showAppSettings {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
