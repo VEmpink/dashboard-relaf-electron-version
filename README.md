@@ -1,7 +1,9 @@
-## Dashboard Rental Lapangan Futsal
-Aplikasi untuk menyimpan data pelanggan yang ingin menyewa lapangan futsal
-- Electron 9.x
-- IndexedDB
-- Themify icons
-
-![app-pic](https://lh3.googleusercontent.com/W28PNUr4Q2r5S41wKfh5XJT8-ynSUb645EX1keYegfxIEl5PbKgA_t2U7884FWzl1Aq-RO0AIiuF7DGkd26XqfZz4bjqUV0RNIy84rNVQxjGs93EdzfvP3cfF38LMXLCQP6qdzIWHACI753WJQnMATehT5FOqXyJ02XbOJiuwSSwhjqeySZo5w-SCeKt4p0IqMsWLEwYXz9FLEHfzQEqIGbiDyLgKuBTs4Tl1_uKiwPlEejH4D6vQn8kQfQ0DmbWuqdugReQCL8ZB_54CybtFKBZGK2IiT5ISCB2ljDQFgqdamdoNOqK9XDgbnNraMcENFRwGfdbn3nbk2wP3PKdwJXQyS7vXAjm9i6ouLYnag1X6caz8V359Mx66nKalDiB8Ot0zAcc0kc3g2AFVaT9IgGXQ0FJ9wHFGnjwAQjihDAOkoNsRBiJQxGbV2be_KbFIJ3VaVmvSVCId0DHjcNXZ5VlnDKh4Jx_QXQMvzkNjyo9SeWo1kfoHgseFdpZUOashd_BwQjevgRkFemOxdAWpyUoAVXsdQJ0-HX-0meB0sE5Ddoto3nlgPpPI7IAkfDQg7nOZNCfqbsJJz92Ti5RU7mfUUezMAnHFcgin8mX9274lzBNryzeVgTI0V0PR91MjnEQTQZVOqxVj1OipsagZderAhdKHXxVLdN8XFs1eLn8vdpOlLl3tRxmSQa-=w920-h472-no?authuser=0)
+### Aplikasi super simple (CRUD) untuk Rental lapangan futsal
+##### Cara pakai
+> Download di https://github.com/VEmpink/dashboard-relaf-electron-version/releases/tag/1.0.0
+##### Dibuat dengan
+1. Electron 9.x
+2. IndexedDB
+3. Themify Icon
+##### Ada juga yang versi Web Biasa
+https://github.com/VEmpink/dashboard-relaf-web-version
